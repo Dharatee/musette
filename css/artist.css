@@ -1,0 +1,90 @@
+.left{
+	width:25%;
+	height: 100%;
+	position: fixed;
+	background: brown;
+}
+.profile{
+	margin-left: 10%;
+	margin-top: 10px;
+	width: 80%;
+	max-height:500px;
+	height: auto; 
+}
+.profile-img{
+	width: 150px;
+	max-height:150px;
+}
+.upload-profile, .upload-cover{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+.upload-profile-table, .upload-cover-table{
+	width: auto;
+	margin: 0 auto;
+}
+.middle{
+	width: 50%;
+	height: auto;
+	left:25%;
+	position: absolute;
+}
+.cover{
+	width: inherit;
+	height: 50%;
+	position: fixed;
+}
+.upload-video{
+	position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: white;
+    opacity: .8;
+}
+#fileselector {
+    margin-right: 10px; 
+}
+#upload-file-selector-profile, #upload-file-selector-cover, #upload-file-selector-video{
+    display:none;   
+}
+.margin-correction {
+    margin-right: 10px;   
+}
+input[type=submit]{
+	width: 100px;
+    background-color:#76DC22;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color:lime;
+}
+.cover-img{
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.iframe{
+	min-height: 1000px;
+	width: 100%;
+	background: red;
+	margin-top:49%;
+	z-index: 1000;
+	position: relative;
+}
+.right{
+	height: 100%;
+	width:25%;
+	position: fixed;
+	left:75%;
+}
+.artist-p{
+	height: 100%;
+	width: 100%;
+	background: yellow;
+}
