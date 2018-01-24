@@ -88,3 +88,41 @@ input[type=submit]:hover{
 	width: 100%;
 	background: yellow;
 }
+@media screen and (max-width: 768px)
+{
+.left{
+	width:100%;
+	height:auto;
+	position: static;
+}
+.profile{
+	margin: 0 auto;
+	width: 100%;
+	height: auto; 
+}
+.profile-img{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.right{
+	width:100%;
+	position: static;
+}
+.toggle{
+	position: static;
+}
+.middle{
+	width:100%;
+	position: static;
+}
+.cover{
+	width: inherit;
+	height: auto;
+	position:static;
+}
+.iframe{
+	margin-top: 0;
+}
+}
